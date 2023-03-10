@@ -6,6 +6,16 @@
     margin: 0;
     font-family: "Lexend Deca", Sans-serif;
 }
+.reveal{
+    position: relative;
+    transform: translateY(15px);
+    opacity: 0;
+}
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+    transition: all 2s ease;
+}
 a {
     text-decoration: none;
     color: black;
