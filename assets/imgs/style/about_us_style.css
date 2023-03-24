@@ -385,14 +385,12 @@ a:hover {
 .body-head .body-head-font {
     padding: 100px;
     width: 70%;
-    position: relative;
-    
+    padding-left: 175px;
 }
 
 .body-head .body-head-font-2 {
     width: 70%;
     position: relative;
-    
     bottom: -7px;
 }
 
