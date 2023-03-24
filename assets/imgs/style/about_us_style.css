@@ -1190,7 +1190,7 @@ li {
         font-size: 32px;
         width: 300px;
         position: relative;
-        left: 160px;
+        left: 14px;
     }
 
     .body-head-number {
@@ -1207,7 +1207,7 @@ li {
         text-align: center;
         width: 600px;
         position: relative;
-        left: 159px;
+        left: 32px;
         bottom: 100px;
     }
 
@@ -1309,7 +1309,7 @@ li {
     }
 
     .team {
-        margin-top: 2600px;
+        margin-top: 2800px;
     }
 
     .value-all {
