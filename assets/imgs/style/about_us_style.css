@@ -5,7 +5,7 @@
     padding: 0;
     margin: 0;
     max-width: 100%;
-    
+
 }
 
 body {
@@ -492,11 +492,6 @@ a:hover {
     line-height: 1.6em;
     position: relative;
     left: 34px;
-}
-
-.body-head-first-number {
-    position: relative;
-    left: 80px;
 }
 
 .body-head-first-number .body-head-first-word {
@@ -1148,6 +1143,7 @@ li {
 /* REPONSIVE ZONE */
 /* moblie */
 @media only screen and (max-width: 46.1875em) {
+
     .head {
         flex-direction: column;
     }
@@ -1164,7 +1160,7 @@ li {
         font-size: 20px;
         width: 300px;
         position: relative;
-        left: 160px;
+        left: 35px;
     }
 
     .title-info {
@@ -1189,9 +1185,9 @@ li {
     .body .first-body {
         text-align: center;
         font-size: 32px;
-        width: 300px;
+        max-width: 100%;
         position: relative;
-        left: 14px;
+        left: -43px;
     }
 
     .body-head-number {
@@ -1206,43 +1202,39 @@ li {
     .second-body {
         font-size: 16px;
         text-align: center;
-        width: 600px;
+        max-width: 1000px;
         position: relative;
-        left: 32px;
+        left: -8px;
         bottom: 100px;
     }
 
     .body-head-font-2 .body-head-buttons {
         position: relative;
         top: -75px;
-        left: -45px;
+        left: -10px;
     }
 
     .body-head .second-body-imgs img {
         max-width: 100%;
         position: relative;
         top: -38px;
-        right: 32px;
+        right: 4px;
+        width: 10000px;
+    }
+    .body-head-number{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 200px;
+        gap: 50px;
     }
 
-    .body-head-first-number {
-        position: relative;
-        left: 200px;
-        top: 75px
-    }
 
     .body-head-second-number {
         position: relative;
-        left: 200px;
-        top: 122px
+        right: 10px;
     }
 
-    .body-head-third-number {
-        position: relative;
-        left: 200px;
-        top: 164px;
-
-    }
 
     .body-head-first-number .body-head-first-number-1 {
         font-size: 40px;
@@ -1293,7 +1285,7 @@ li {
     }
 
     .card-show {
-        padding-top: 450px;
+        padding-top: 400px;
         flex-direction: column;
     }
 
@@ -1311,6 +1303,9 @@ li {
 
     .team {
         margin-top: 2800px;
+    }
+    .contain-hunderd {
+        padding-bottom: 100px;
     }
 
     .value-all {
@@ -1330,50 +1325,36 @@ li {
     .team-introduce-title {
         text-align: center;
         font-size: 32px;
-        position: relative;
-        top: 28px;
-        right: 10px;
+       
     }
 
     .team-introduce-info {
         text-align: center;
         font-size: 16px;
     }
-
-    .ceo-icon-1 {
-        position: relative;
-        left: 120px;
+    .ceo-porfolio-1{
+        text-align: center;
+    }
+    .ceo-porfolio-2{
+        text-align: center;
+    }
+    .ceo-porfolio-3{
+        text-align: center;
+    }
+    .ceo-porfolio-4{
+        text-align: center;
+    }
+    .ceo-porfolio-5{
+        text-align: center;
+    }
+    .ceo-porfolio-6{
+        text-align: center;
     }
 
-    .ceo-icon-2 {
-        position: relative;
-        left: 120px;
-    }
-
-    .ceo-icon-3 {
-        position: relative;
-        left: 120px;
-    }
-
-    .ceo-icon-4 {
-        position: relative;
-        left: 120px;
-    }
-
-    .ceo-icon-5 {
-        position: relative;
-        left: 120px;
-    }
-
-    .ceo-icon-6 {
-        position: relative;
-        left: 120px;
-    }
 
     .ceo-view {
         padding: 10px;
-        position: relative;
-        top: 30px;
+        
     }
 
     .hundred-block .hundred-name {
@@ -1388,21 +1369,21 @@ li {
         text-align: center;
         font-size: 16px;
     }
-
+    .bosslogo{
+        display: flex;
+        gap: 100px;
+        padding-top: 50px;
+    }
     .logo-campany-1 {
         flex-direction: column;
         position: relative;
-        left: 120px;
-        gap: 35px;
-        top: 59px;
+        left: 119px;
+        gap: 20px;
     }
 
     .logo-company-2 {
         flex-direction: column;
-        position: relative;
-        left: 400px;
-        bottom: 49px;
-        gap: 36px;
+        gap: 20px;
     }
 
     .want-to-join-words .want-to-join-words-elements-1 {
@@ -1420,45 +1401,56 @@ li {
         top: 50px;
         width: 550px;
     }
+
     .want-to-join-elements {
         display: flex;
         flex-direction: column;
     }
-    .background-icon img{
+
+    .background-icon img {
         width: 100px;
         position: relative;
         right: 224px;
         top: 74px;
     }
-    .button-a{
+
+    .button-a {
         position: relative;
         bottom: 70px;
     }
-    .footer-top{
+
+    .footer-top {
         flex-direction: column;
     }
-    .footer .footer-Selo{
+
+    .footer .footer-Selo {
         position: relative;
         right: 220px;
     }
-    .footer .footer-email{
+
+    .footer .footer-email {
         position: relative;
         right: 146px;
     }
-    .footer .footer-number{
+
+    .footer .footer-number {
         position: relative;
         right: 91px;
     }
-    .footer-bottom{
+
+    .footer-bottom {
         flex-direction: column-reverse;
         height: 80px;
     }
-    .footer-menu ul,li{
+
+    .footer-menu ul,
+    li {
         position: relative;
         top: 20px;
         left: 10px;
-        
+
     }
+
     .footer-bottom .footer-Copyright {
         font-size: 15px;
     }
